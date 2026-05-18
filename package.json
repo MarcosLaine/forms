@@ -1,0 +1,14 @@
+{
+  "name": "forms-load-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small Playwright bot for authorized Tally form load testing.",
+  "type": "module",
+  "scripts": {
+    "submit:tally": "node scripts/tally-load-test.js",
+    "check": "node --check scripts/tally-load-test.js"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}
